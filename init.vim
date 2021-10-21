@@ -21,6 +21,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'vim-utils/vim-man'
 Plug 'ajh17/VimCompletesMe'
+Plug 'uiiaoo/java-syntax.vim'
 Plug 'mbbill/undotree'
 
 Plug 'nvim-lua/plenary.nvim'
