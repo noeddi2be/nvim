@@ -19,6 +19,7 @@ highlight colorcolumn ctermbg=0 guibg=lightgray
 call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'
+Plug 'xiyaowong/nvim-transparent'
 Plug 'vim-utils/vim-man'
 Plug 'ajh17/VimCompletesMe'
 Plug 'uiiaoo/java-syntax.vim'
@@ -61,6 +62,13 @@ nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
 "Esc to end Terminal Window, exits Vim
 tnoremap <Esc> <C-\><C-n>
+
+"Transparent permanent setting"
+autocmd VimEnter * TransparentEnable
+
+
+
+
 
 
 
