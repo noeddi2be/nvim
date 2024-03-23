@@ -23,6 +23,11 @@ return require('packer').startup(function(use)
       'nvim-telescope/telescope.nvim', tag = '0.1.6',
       requires = { {'nvim-lua/plenary.nvim'} }
   }
+  use {
+      'williamboman/mason.nvim', -- package manager for lsp
+      'williamboman/mason-lspconfig.nvim', -- bridge between lspconfig and mason
+      'neovim/nvim-lspconfig' -- configuration between lsp and neovim
+  }
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
