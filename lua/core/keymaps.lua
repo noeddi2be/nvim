@@ -22,7 +22,7 @@ vim.opt.hlsearch = false
 
 vim.opt.scrolloff = 8
 
-vim.opt.colorcolumn = '80'
+--vim.opt.colorcolumn = '80'
 vim.opt.signcolumn = 'no'
 
 vim.g.mapleader = ' '
